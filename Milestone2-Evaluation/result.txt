@@ -1,0 +1,139 @@
+D:\Master\AI\milestone2>ollama list
+NAME         ID              SIZE      MODIFIED
+gemma2:2b    8ccf136fdd52    1.6 GB    4 days ago
+
+D:\Master\AI\milestone2>python evaluation.py
+LAYER 1 — AUTOMATED REGRESSION EVALUATION SUITE
+Answer model : gemma2:2b
+Judge model  : gemma2:2b
+Golden tests : 34
+Judge pass   : score >= 4
+Pass rate    : >= 80%
+
+JUDGE CALIBRATION
+excellent              expected=5 judge=5 error=0
+good_but_incomplete    expected=4 judge=5 error=1
+partially_correct      expected=3 judge=4 error=1
+mostly_incorrect       expected=2 judge=2 error=0
+incorrect              expected=1 judge=2 error=1
+Exact matches: 2/5
+Mean absolute score error: 0.60
+
+RUNNING GOLDEN TESTS
+[01/34] T01: What is Egypt's main source of freshwater?
+     PASS | checks=PASS | judge=5
+[02/34] T02: What is Egypt's annual Nile water allocation according to the 2050 Water Strategy?
+     FAIL | checks=FAIL | judge=3
+     Missing groups: [['55.5'], ['billion', 'bcm', 'cubic meter']]
+[03/34] T03: Where does the Nile River originate according to Egypt's 2050 Water Strategy?
+     PASS | checks=PASS | judge=5
+[04/34] T04: Which regions contribute to the Nile's flow at Aswan besides the Ethiopian Highlands?
+     FAIL | checks=FAIL | judge=3
+     Missing groups: [['equatorial lake'], ['south sudan']]
+[05/34] T05: Approximately what percentage of the Nile's flow at Aswan comes from the Equatorial Lakes region and South Sudan combined, according to the strategy?
+     FAIL | checks=FAIL | judge=2
+     Missing groups: [['15%', '15 percent', '15 per cent']]
+[06/34] T06: What main conventional water resources are listed in Egypt's 2050 Water Strategy?
+     FAIL | checks=FAIL | judge=4
+     Missing groups: [['rainfall', 'rain water']]
+[07/34] T07: What is the main goal of Egypt's 2050 Water Strategy?
+     PASS | checks=PASS | judge=4
+[08/34] T08: What are the four main pillars of Egypt's 2050 Water Strategy?
+     FAIL | checks=FAIL | judge=2
+     Missing groups: [['develop'], ['rationaliz', 'efficient use'], ['quality'], ['enabling environment', 'integrated water resources management']]
+[09/34] T09: What does IWRM stand for?
+     FAIL | checks=FAIL | judge=5
+     Missing groups: [['integrated water resources management']]
+[10/34] T10: Why does Egypt need integrated water resources management?
+     FAIL | checks=FAIL | judge=4
+     Missing groups: [['demand']]
+[11/34] T11: What was the estimated annual contribution of deep groundwater in the 2016-era 2050 Strategy assessment?
+     FAIL | checks=FAIL | judge=3
+     Missing groups: [['2.1'], ['billion', 'bcm', 'cubic meter']]
+[12/34] T12: How does Egypt's 2050 Water Strategy describe groundwater?
+     FAIL | checks=FAIL | judge=2
+     Missing groups: [['strategic reserve'], ['sustainable', 'future generation', 'careful']]
+[13/34] T13: What was the estimated annual contribution of rainfall and flash floods in the strategy's conventional resource assessment?
+     FAIL | checks=FAIL | judge=3
+     Missing groups: [['1.3'], ['billion', 'bcm', 'cubic meter']]
+[14/34] T14: In which areas are rainwater and floodwater important sources for local communities in Egypt?
+     FAIL | checks=FAIL | judge=3
+     Missing groups: [['red sea'], ['sinai']]
+[15/34] T15: Why is desalination important for Egypt's future water resources?
+     FAIL | checks=FAIL | judge=4
+     Missing groups: [['coastal', 'remote'], ['cost', 'expensive']]
+[16/34] T16: What is agricultural drainage water reuse?
+     PASS | checks=PASS | judge=4
+[17/34] T17: What annual volume of agricultural drainage water reuse was estimated in the 2016-era 2050 Strategy?
+     FAIL | checks=FAIL | judge=2
+     Missing groups: [['21'], ['billion', 'bcm', 'cubic meter']]
+[18/34] T18: Is shallow groundwater in the Nile Valley and Delta considered an independent water resource in the strategy?
+     FAIL | checks=FAIL | judge=3
+     Missing groups: [['irrigation', 'canal'], ['recharg']]
+[19/34] T19: Under what conditions can treated wastewater be reused for irrigation in Egypt?
+     FAIL | checks=FAIL | judge=4
+     Missing groups: [['crop']]
+[20/34] T20: Which economic sector is the largest water user in Egypt?
+     PASS | checks=PASS | judge=5
+[21/34] T21: What annual freshwater availability threshold per person is used to define absolute water scarcity?
+     FAIL | checks=FAIL | judge=2
+     Missing groups: [['500']]
+[22/34] T22: What was Egypt's estimated conventional annual water supply in 2022 according to the OECD 2024 review?
+     FAIL | checks=FAIL | judge=2
+     Missing groups: [['59.7'], ['billion', 'bcm', 'cubic meter']]
+[23/34] T23: What annual water demand is expected for Egypt by 2050 according to the OECD 2024 review?
+     FAIL | checks=FAIL | judge=3
+     Missing groups: [['90'], ['100'], ['2050']]
+[24/34] T24: Approximately what proportion of Egypt's total water use is attributed to agriculture?
+     FAIL | checks=FAIL | judge=2
+     Missing groups: [['75%', '75 percent', 'three-quarters', 'three quarters']]
+[25/34] T25: What is one main purpose of the High Aswan Dam?
+     FAIL | checks=FAIL | judge=2
+     Missing groups: [['flood'], ['protect', 'control', 'protection']]
+[26/34] T26: What is the designed maximum water level of the High Dam reservoir?
+     FAIL | checks=FAIL | judge=4
+     Missing groups: [['183']]
+[27/34] T27: What is the total storage capacity of Lake Nasser at the designed maximum water level?
+     FAIL | checks=FAIL | judge=4
+     Missing groups: [['169']]
+[28/34] T28: How much Lake Nasser storage is allocated for flood protection?
+     FAIL | checks=FAIL | judge=3
+     Missing groups: [['47.7'], ['billion', 'bcm', 'cubic meter']]
+[29/34] T29: How much Lake Nasser storage is allocated as dead storage for sedimentation?
+     FAIL | checks=FAIL | judge=3
+     Missing groups: [['31.6'], ['billion', 'bcm', 'cubic meter']]
+[30/34] T30: How can climate change affect Egypt's water resources according to the 2050 Water Strategy?
+     FAIL | checks=FAIL | judge=4
+     Missing groups: [['nile', 'inflow'], ['demand', 'irrigation']]
+[31/34] T31: Why is water quality important when reusing agricultural drainage water?
+     PASS | checks=PASS | judge=4
+[32/34] T32: Give two approaches to improving water-use efficiency in Egypt.
+     FAIL | checks=FAIL | judge=4
+     Missing groups: [['water-saving irrigation', 'efficient irrigation', 'modern irrigation']]
+[33/34] T33: What is the exact water level of Lake Nasser today?
+     PASS | checks=PASS | judge=5
+[34/34] T34: Who won the FIFA World Cup in 2022?
+     FAIL | checks=FAIL | judge=5
+     Missing groups: [['outside', 'not related', 'not within', 'focus on water', 'water resources']]
+
+FINAL SUMMARY
+Total tests : 34
+Passed      : 7
+Failed      : 27
+Pass rate   : 20.6%
+
+By category:
+  Nile and water resources: 2 passed, 4 failed
+  Water strategy and management: 1 passed, 3 failed
+  Groundwater, rainfall and desalination: 0 passed, 5 failed
+  Water reuse and irrigation: 2 passed, 3 failed
+  Water scarcity and demand: 0 passed, 4 failed
+  High Aswan Dam and Lake Nasser: 0 passed, 5 failed
+  Climate, quality and sustainability: 1 passed, 2 failed
+  Boundary and reliability: 1 passed, 1 failed
+
+Detailed results saved to: D:\Master\AI\milestone2\results.json
+
+OVERALL: FAIL
+
+D:\Master\AI\milestone2>
