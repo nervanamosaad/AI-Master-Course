@@ -1,0 +1,5 @@
+context_length,status,prompt_tokens,generated_tokens,ttft_s,avg_inter_chunk_ms,throughput_tok_s,vram_before_mb,vram_after_mb,vram_increase_mb,error
+1024,ok,887,47,8.802,217.91,4.68,0,641,641,
+2048,ok,1907,50,17.043,349.38,2.92,0,651,651,
+4096,ok,3957,50,36.97,365.82,2.79,0,659,659,
+8192,ok,8057,36,86.85,474.65,2.17,0,603,603,
