@@ -1,0 +1,87 @@
+Milestone 3 — Deterministic Schema Extraction Engine
+
+D:\Master\AI\milestone3>python milestone3.py
+
+Starting Milestone 3 Benchmark
+
+Raw model output: '```json\n{\n    "water_level_risk": "High",\n    "rainfall_risk": "Low",\n    "temperature_risk": "High",\n    "summary": "The region faces significant water level issues, low rainfall, and high temperatures, indicating high risk in all aspects."\n}\n```'
+Invalid JSON syntax. Retrying...
+Invalid JSON syntax. Retrying...
+Invalid JSON syntax. Retrying...
+Sample 1 completed.
+Raw model output: '```json\n{\n    "water_level_risk": "Low",\n    "rainfall_risk": "Low",\n    "temperature_risk": "Medium",\n    "summary": "The region exhibits a balance between normal water levels, moderate rainfall, and moderate temperatures."\n}\n```'
+Invalid JSON syntax. Retrying...
+Invalid JSON syntax. Retrying...
+Invalid JSON syntax. Retrying...
+Sample 2 completed.
+Raw model output: '```json\n{\n    "water_level_risk": "High",\n    "rainfall_risk": "High",\n    "temperature_risk": "Low",\n    "summary": "The combination of high water levels and heavy rainfall pose a significant risk of flooding. Low temperatures may not pose a significant risk in this case."\n}\n```'
+Invalid JSON syntax. Retrying...
+Invalid JSON syntax. Retrying...
+Invalid JSON syntax. Retrying...
+Sample 3 completed.
+Raw model output: '```json\n{\n    "water_level_risk": "Medium",\n    "rainfall_risk": "Medium",\n    "temperature_risk": "High",\n    "summary": "The combination of low water levels, moderate rainfall, and high temperatures suggests potential risks to water resources and infrastructure."\n}\n```'
+Invalid JSON syntax. Retrying...
+Invalid JSON syntax. Retrying...
+Invalid JSON syntax. Retrying...
+Sample 4 completed.
+Raw model output: '```json\n{\n    "water_level_risk": "High",\n    "rainfall_risk": "High",\n    "temperature_risk": "High",\n    "summary": "Extreme weather conditions, including high water levels, heavy rainfall, and high temperatures, pose significant risks."\n}\n```'
+Invalid JSON syntax. Retrying...
+Invalid JSON syntax. Retrying...
+Invalid JSON syntax. Retrying...
+Sample 5 completed.
+
+Benchmark Results
+
+Unconstrained Generation:
+Successful Samples: 0 / 5
+Average Latency: 239.323 seconds
+Throughput: 0.98 tokens/sec
+Total Retries: 10
+JSON Syntax Errors: 15
+Schema Errors: 0
+
+Constrained Generation:
+Successful Samples: 5 / 5
+Average Latency: 62.538 seconds
+Throughput: 1.06 tokens/sec
+
+D:\Master\AI\milestone3>python milestone3.py
+
+Starting Milestone 3 Benchmark
+
+Raw model output: '```json\n{\n    "water_level_risk": "High",\n    "rainfall_risk": "Medium",\n    "temperature_risk": "High",\n    "summary": "This region faces significant water scarcity, likely impacted by prolonged dry spells and high temperatures."\n}\n```'
+Invalid JSON syntax. Retrying...
+Invalid JSON syntax. Retrying...
+Invalid JSON syntax. Retrying...
+Sample 1 completed.
+Raw model output: '```json\n{\n    "water_level_risk": "Low",\n    "rainfall_risk": "Low",\n    "temperature_risk": "Medium",\n    "summary": "The region exhibits normal water levels, moderate rainfall, and moderate temperatures." \n}\n```'
+Invalid JSON syntax. Retrying...
+Sample 2 completed.
+Raw model output: '```json\n{\n    "water_level_risk": "High",\n    "rainfall_risk": "Medium",\n    "temperature_risk": "High",\n    "summary": "The region is at risk of flooding due to high water levels and heavy rainfall, and cold temperatures may contribute to a negative impact on infrastructure and agriculture."\n}\n``` \n'
+Invalid JSON syntax. Retrying...
+Invalid JSON syntax. Retrying...
+Invalid JSON syntax. Retrying...
+Sample 3 completed.
+Raw model output: '```json\n{\n    "water_level_risk": "Medium",\n    "rainfall_risk": "Medium",\n    "temperature_risk": "High",\n    "summary": "Low water levels, moderate rainfall, and high temperatures suggest potential risks to water resources due to drought and extreme heat."\n}\n```'
+Invalid JSON syntax. Retrying...
+Sample 4 completed.
+Raw model output: '```json\n{\n    "water_level_risk": "High",\n    "rainfall_risk": "High",\n    "temperature_risk": "High",\n    "summary": "The region faces significant risks due to heavy rainfall, high water levels, and high temperatures."\n}\n```'
+Invalid JSON syntax. Retrying...
+Sample 5 completed.
+
+Benchmark Results
+
+Unconstrained Generation:
+Successful Samples: 3 / 5
+Average Latency: 161.344 seconds
+Throughput: 1.2 tokens/sec
+Total Retries: 7
+JSON Syntax Errors: 9
+Schema Errors: 0
+
+Constrained Generation:
+Successful Samples: 5 / 5
+Average Latency: 51.289 seconds
+Throughput: 1.26 tokens/sec
+
+D:\Master\AI\milestone3>
