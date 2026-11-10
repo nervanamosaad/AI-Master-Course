@@ -1,0 +1,26 @@
+WATER RESOURCES IN EGYPT — LOCAL KNOWLEDGE BASE
+This file is a small starter corpus for the Hybrid RAG milestone. It is a teaching/demo corpus, not a substitute for the original official strategy or OECD documents. Verify numerical facts against the source documents before presenting them as authoritative.
+
+SECTION: Nile River and Egypt's water resources
+The Nile River is Egypt's main source of freshwater. Egypt's annual Nile water allocation is commonly stated as 55.5 billion cubic meters per year under the 1959 Egypt-Sudan agreement. Egypt's 2050 Water Strategy describes the Nile as originating in the Ethiopian Highlands. Other regions contributing to the Nile flow at Aswan include the Equatorial Lakes region and South Sudan. The Equatorial Lakes region and South Sudan together contribute approximately 15 percent of the Nile flow at Aswan.
+
+SECTION: Egypt's 2050 Water Strategy and integrated management
+The main goal of Egypt's 2050 Water Strategy is to achieve water security through sustainable management of limited water resources, meeting present and future needs. The strategy has four main pillars: developing water resources; rationalizing water use; improving water quality; and creating an enabling environment for integrated water resources management. IWRM stands for Integrated Water Resources Management. Integrated management coordinates the sustainable management of limited resources, balances current and future demands, and protects water quality.
+
+SECTION: Conventional water resources
+The conventional water resources discussed in Egypt's 2050 Water Strategy include Nile water, deep groundwater, rainfall and flash floods, and desalinated brackish water. A 2016-era assessment in the strategy estimated deep groundwater contribution at approximately 2.1 billion cubic meters per year. Groundwater is a strategic reserve and should be carefully managed to support sustainable use and protect future generations. The same assessment estimated rainfall and flash-flood contribution at approximately 1.3 billion cubic meters per year. Rainwater and floodwater are important for local communities in the Red Sea area, Sinai, and parts of the Mediterranean coast. Desalination can supply coastal and remote communities and support development, although its cost is a major constraint.
+
+SECTION: Water reuse and irrigation
+Agricultural drainage water reuse means using suitable-quality agricultural drainage water, sometimes blended with Nile water, to meet water needs. A 2016-era estimate in the 2050 Strategy put agricultural drainage water reuse at approximately 21 billion cubic meters per year. Shallow groundwater in the Nile Valley and Delta is largely recharged by irrigation and canal networks; it is treated as a form of reuse rather than an independent water resource. Treated wastewater reuse for irrigation must follow the Egyptian code and consider treatment level, effluent quality, crop type, and health and safety requirements. Agriculture is the largest water-using economic sector in Egypt. Improving water-use efficiency can include improving water distribution networks and using water-saving or modern irrigation technologies.
+
+SECTION: Water scarcity and water demand
+An annual freshwater availability below 500 cubic meters per person per year is used as a threshold for absolute water scarcity. The OECD 2024 review estimated Egypt's conventional annual water supply in 2022 at approximately 59.7 billion cubic meters. The same review expected annual water demand by 2050 to reach approximately 90 to 100 billion cubic meters. Agriculture accounts for approximately three-quarters, or about 75 percent, of Egypt's total water use.
+
+SECTION: High Aswan Dam and Lake Nasser
+One main purpose of the High Aswan Dam is flood control and protecting Egypt from high floods. The designed maximum water level of the High Dam reservoir is 183 meters. Lake Nasser's total storage capacity at the designed maximum water level is 169 billion cubic meters. Of this storage, 47.7 billion cubic meters is allocated for flood protection and 31.6 billion cubic meters is allocated as dead storage for sedimentation.
+
+SECTION: Climate change, water quality and sustainability
+Climate change may affect Nile inflows and change water demands, especially irrigation demand. Water quality is important when reusing agricultural drainage water because untreated sewage and industrial wastewater can pollute drainage water and make reuse unsafe or unsuitable. Water-use efficiency can be improved by improving water distribution networks and using water-saving irrigation technologies.
+
+SECTION: Scope and data limitations
+This knowledge base does not contain verified real-time measurements of Lake Nasser's current water level. A system using only this knowledge base must not invent today's water level and should state that verified real-time data is unavailable. This knowledge base is about water resources in Egypt; questions outside this subject, such as sports results, are outside its scope.

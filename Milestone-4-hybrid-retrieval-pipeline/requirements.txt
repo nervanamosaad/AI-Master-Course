@@ -1,0 +1,6 @@
+chromadb
+sentence-transformers
+rank-bm25
+requests
+numpy
+torch
